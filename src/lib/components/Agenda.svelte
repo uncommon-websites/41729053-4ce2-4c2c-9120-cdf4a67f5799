@@ -1,37 +1,37 @@
 <script lang="ts">
   import AgendaItem from './AgendaItem.svelte';
 
-  const day1 = {
-    date: "April 28",
-    tags: ["Pre-event"],
+  const step1 = {
+    date: "Week 1",
+    tags: ["Onboarding"],
     items: [
-      { time: "All day", title: "Pre-conference training (add-on)", subtitle: "Partner Summit (for Stripe partners only)" }
+      { time: "Day 1", title: "Download Shiawase and create your profile" },
+      { time: "Day 2-3", title: "Video call with Mira AI", subtitle: "Natural conversation to understand your personality" },
+      { time: "Day 4-7", content: ["AI creates your personality fingerprint", "System analyzes compatibility patterns", "Your profile goes live to compatible matches"] }
     ]
   };
 
-  const day2 = {
-    date: "April 29",
-    tags: ["Day 1"],
+  const step2 = {
+    date: "Week 2-3",
+    tags: ["First Connections"],
     items: [
-      { time: "Morning", content: ["Breakfast in the expo hall", "Keynote", "Breakout talks", "Hands-on workrooms", "Certification exams"] },
-      { time: "Afternoon", content: ["Lunch at Yerba Buena Gardens", "Expo hall", "Breakout talks", "Hands-on workrooms", "Certification exams", "Fireside chat with special guest"] },
-      { time: "Evening", title: "Welcome reception" }
+      { time: "Week 2", content: ["Receive your first curated introductions", "See compatibility summaries and profiles", "Start conversations with matched people", "Provide feedback to refine matching"] },
+      { time: "Week 3", content: ["Get invited to your first micro-experience", "Meet 4-6 highly compatible people", "Attend intimate gathering (dinner, happy hour, etc.)", "Build your social circle organically"] }
     ]
   };
 
-  const day3 = {
-    date: "April 30",
-    tags: ["Day 2"],
+  const step3 = {
+    date: "Ongoing",
+    tags: ["Growing Community"],
     items: [
-      { time: "Morning", content: ["Breakfast in the expo hall", "Keynote", "Breakout talks", "Hands-on workrooms", "Certification exams"] },
-      { time: "Afternoon", content: ["Lunch at Yerba Buena Gardens", "Expo hall", "Breakout talks", "Hands-on workrooms", "Certification exams", "Fireside chat with special guest"] },
-      { time: "Evening", title: "Networking hour" }
+      { time: "Monthly", content: ["Regular curated introductions", "Invitations to compatible micro-experiences", "Host your own gatherings", "AI learns and improves matching accuracy"] },
+      { time: "Long-term", title: "Build lasting friendships and find your community" }
     ]
   };
 </script>
 
 <section class="px-6 max-w-[1400px] mx-auto">
-  <AgendaItem {...day1} />
-  <AgendaItem {...day2} />
-  <AgendaItem {...day3} />
+  <AgendaItem {...step1} isFirst={true} />
+  <AgendaItem {...step2} isFirst={false} />
+  <AgendaItem {...step3} isFirst={false} />
 </section>
