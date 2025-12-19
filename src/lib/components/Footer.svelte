@@ -4,7 +4,7 @@
     <!-- Top Section -->
     <div class="flex flex-col md:flex-row justify-between items-start mb-24">
       <div class="mb-8 md:mb-0">
-        <img src="/uploaded/1766114275287-l2f7rz6.png" alt="Shiawase" class="h-8" />
+        <img src="/uploaded/1766114275287-l2f7rz6.png" alt="Shiawase" class="h-[29px]" />
       </div>
 
       <div class="flex flex-col md:flex-row gap-8 md:gap-16 text-sm font-medium text-[#ABABAB]">

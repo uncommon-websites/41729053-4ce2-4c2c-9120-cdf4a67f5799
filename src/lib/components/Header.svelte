@@ -5,7 +5,7 @@
 <header class="fixed top-0 left-0 right-0 z-50 bg-[#101010]/90 backdrop-blur-sm border-b border-[#333333]">
   <div class="flex items-center justify-between px-6 py-4">
     <a href="/" class="flex items-center">
-      <img src="/uploaded/1766114275287-l2f7rz6.png" alt="Shiawase" class="h-8" />
+      <img src="/uploaded/1766114275287-l2f7rz6.png" alt="Shiawase" class="h-[29px]" />
     </a>
 
     <div class="flex items-center gap-4">
