@@ -6,7 +6,6 @@
   import Passes from "$lib/components/Passes.svelte";
   import Speakers from "$lib/components/Speakers.svelte";
   import WhyNow from "$lib/components/WhyNow.svelte";
-  import Agenda from "$lib/components/Agenda.svelte";
   import FAQ from "$lib/components/FAQ.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>
@@ -19,7 +18,6 @@
   <Passes />
   <Speakers />
   <WhyNow />
-  <Agenda />
   <FAQ />
   <Footer />
 </main>
