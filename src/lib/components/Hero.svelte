@@ -23,11 +23,11 @@
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-16">
-    <div class="md:col-start-7 md:col-span-6 lg:col-start-7 lg:col-span-5">
-      <p class="text-xl md:text-2xl leading-snug text-black font-normal mb-8">
+    <div class="md:col-start-3 md:col-span-8 lg:col-start-4 lg:col-span-6">
+      <p class="text-xl md:text-2xl leading-snug text-black font-normal mb-8 text-center">
         Move beyond superficial swipes and content feeds. Shiawase uses AI to understand who you really are, then curates authentic connections and intimate experiences with people you'll genuinely click with.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#join-waitlist" class="inline-block bg-black text-white text-sm font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-opacity text-center">
           Join the Waitlist
         </a>
