@@ -5,7 +5,7 @@
     </span>
   </div>
 
-  <h1 class="text-[clamp(3rem,8vw,6.5rem)] leading-[0.95] tracking-tight font-medium max-w-5xl mb-12 text-black">
+  <h1 class="text-[clamp(3rem,8vw,6.5rem)] leading-[0.95] tracking-tight font-medium max-w-5xl mb-12 text-white">
     Find your people through AI-powered chemistry
   </h1>
 
