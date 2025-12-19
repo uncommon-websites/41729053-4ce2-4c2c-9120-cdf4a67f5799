@@ -50,7 +50,7 @@
     <div class="lg:col-span-7 flex flex-col gap-6">
       <div class="relative h-[350px] bg-[#191919] rounded-lg overflow-hidden border border-[#333333]">
         <img 
-          src="/generated/image-college-student-having-a-video-call-on-p-1766100161741-4.webp" 
+          src="/generated/image-young-blonde-woman-wearing-arizona-state-1766135458133-0.webp" 
           alt="Video call with Mira AI" 
           class="w-full h-full object-cover"
         />
