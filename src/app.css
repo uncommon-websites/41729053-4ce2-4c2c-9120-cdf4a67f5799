@@ -3,8 +3,27 @@
 @theme {
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   
-  --color-primary: oklch(0.696 0.17 162.48);
-  --color-bg-light: #ffffff;
+  /* Primary Colors */
+  --color-primary-dark: #089935;
+  --color-primary: #3B51E1;
+  --color-primary-tint: #4EA9EF;
+  
+  /* Secondary Colors */
+  --color-secondary-dark: #D85800;
+  --color-secondary: #FD9F5E;
+  --color-secondary-tint: #FFCDAB;
+  
+  /* Black and White Scale */
+  --color-black-900: #101010;
+  --color-black-800: #191919;
+  --color-black-700: #333333;
+  --color-black-600: #555555;
+  --color-black-500: #919191;
+  --color-black-400: #ABABAB;
+  --color-black-300: #D9D909;
+  --color-black-200: #ECECEC;
+  --color-black-100: #F1F1F1;
+  --color-white: #FCFCFC;
 }
 
 @layer base {
@@ -14,8 +33,8 @@
 
   body {
     font-family: var(--font-sans);
-    background-color: var(--color-bg-light);
-    color: #000000;
+    background-color: var(--color-black-900);
+    color: var(--color-white);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

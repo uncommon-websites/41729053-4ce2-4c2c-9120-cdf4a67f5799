@@ -15,19 +15,19 @@
   ];
 </script>
 
-<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-200 overflow-hidden" id="founders">
-  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-black">Meet the founders</h2>
+<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-[#333333] overflow-hidden" id="founders">
+  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-[#FCFCFC]">Meet the founders</h2>
   
-  <p class="text-xl text-gray-600 mb-16 max-w-3xl">
+  <p class="text-xl text-[#ABABAB] mb-16 max-w-3xl">
     Built by founders who deeply understand loneliness—one who experienced it across cultures and continents, another who grew up in the heart of Gen-Z's isolation crisis.
   </p>
 
   <!-- Founders Grid -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
     {#each founders as founder}
-      <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 group hover:shadow-lg transition-all">
+      <div class="bg-[#191919] rounded-xl overflow-hidden border border-[#333333] group hover:border-[#3B51E1] transition-colors">
         <!-- Image -->
-        <div class="relative h-[400px] bg-gray-100 overflow-hidden">
+        <div class="relative h-[400px] bg-[#191919] overflow-hidden">
           <img 
             src={founder.img} 
             alt={founder.name} 
@@ -37,9 +37,9 @@
 
         <!-- Content -->
         <div class="p-8">
-          <h3 class="text-2xl font-semibold text-black mb-1">{founder.name}</h3>
-          <p class="text-sm font-medium text-gray-500 mb-4 uppercase tracking-wide">{founder.role}</p>
-          <p class="text-sm leading-relaxed text-gray-600">
+          <h3 class="text-2xl font-semibold text-[#FCFCFC] mb-1">{founder.name}</h3>
+          <p class="text-sm font-medium text-[#919191] mb-4 uppercase tracking-wide">{founder.role}</p>
+          <p class="text-sm leading-relaxed text-[#ABABAB]">
             {founder.bio}
           </p>
         </div>
@@ -48,15 +48,15 @@
   </div>
 
   <!-- Mission Statement -->
-  <div class="bg-gray-50 rounded-xl p-12 border border-gray-200">
-    <h3 class="text-3xl font-medium text-black mb-6">Our mission</h3>
-    <p class="text-xl leading-relaxed text-gray-700 mb-6">
+  <div class="bg-[#191919] rounded-xl p-12 border border-[#333333]">
+    <h3 class="text-3xl font-medium text-[#FCFCFC] mb-6">Our mission</h3>
+    <p class="text-xl leading-relaxed text-[#ECECEC] mb-6">
       We're building Shiawase to solve one of the most pressing challenges facing our generation: the loneliness epidemic.
     </p>
-    <p class="text-base leading-relaxed text-gray-600">
+    <p class="text-base leading-relaxed text-[#ABABAB]">
       Despite being the most "connected" generation, 80% of Gen-Z report feeling lonely. Dating apps have become over-monetized gambling mechanics. Social media has devolved into content farms optimized for ad revenue. AI companions offer parasocial substitutes that reinforce isolation rather than solve it.
     </p>
-    <p class="text-base leading-relaxed text-gray-600 mt-4">
+    <p class="text-base leading-relaxed text-[#ABABAB] mt-4">
       We believe AI should help humans connect with each other—not replace human connection. Shiawase uses AI to understand who you really are, then curates authentic introductions and experiences with people you'll genuinely click with. It's the magic of mutual friend introductions, at scale.
     </p>
   </div>

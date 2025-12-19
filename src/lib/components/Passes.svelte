@@ -59,7 +59,7 @@
 
     <!-- Info List -->
     <div class="lg:col-span-4 pl-0 lg:pl-12 pt-4">
-      <h3 class="text-sm font-semibold text-black mb-6 uppercase tracking-wide">Why Join Now</h3>
+      <h3 class="text-sm font-semibold text-[#FCFCFC] mb-6 uppercase tracking-wide">Why Join Now</h3>
       <ul class="space-y-4">
         {#each [
           'Shape the product with your feedback',
@@ -69,8 +69,8 @@
           'Exclusive campus events',
           'Direct access to founders'
         ] as item}
-          <li class="text-sm text-gray-600 flex items-start gap-3">
-            <svg class="w-5 h-5 text-black mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <li class="text-sm text-[#ABABAB] flex items-start gap-3">
+            <svg class="w-5 h-5 text-[#3B51E1] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
             </svg>
             {item}

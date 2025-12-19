@@ -2,7 +2,7 @@
   let mobileMenuOpen = false;
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+<header class="fixed top-0 left-0 right-0 z-50 bg-[#101010]/90 backdrop-blur-sm border-b border-[#333333]">
   <div class="flex items-center justify-between px-6 py-4">
     <a href="/" class="flex items-center gap-3">
       <svg width="32" height="32" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,12 +38,12 @@
 
   <!-- Mobile Menu -->
   {#if mobileMenuOpen}
-    <div class="md:hidden border-t border-gray-100 bg-white">
+    <div class="md:hidden border-t border-[#333333] bg-[#101010]">
       <nav class="flex flex-col px-6 py-4 space-y-4">
-        <a href="#how-it-works" class="text-sm font-medium text-gray-600 hover:text-black transition-colors" on:click={() => mobileMenuOpen = false}>How It Works</a>
-        <a href="#founders" class="text-sm font-medium text-gray-600 hover:text-black transition-colors" on:click={() => mobileMenuOpen = false}>Our Story</a>
-        <a href="#faq" class="text-sm font-medium text-gray-600 hover:text-black transition-colors" on:click={() => mobileMenuOpen = false}>FAQ</a>
-        <a href="#join-waitlist" class="bg-black text-white text-sm font-medium px-5 py-2 rounded-full hover:bg-opacity-90 transition-opacity text-center" on:click={() => mobileMenuOpen = false}>
+        <a href="#how-it-works" class="text-sm font-medium text-[#ABABAB] hover:text-[#4EA9EF] transition-colors" on:click={() => mobileMenuOpen = false}>How It Works</a>
+        <a href="#founders" class="text-sm font-medium text-[#ABABAB] hover:text-[#4EA9EF] transition-colors" on:click={() => mobileMenuOpen = false}>Our Story</a>
+        <a href="#faq" class="text-sm font-medium text-[#ABABAB] hover:text-[#4EA9EF] transition-colors" on:click={() => mobileMenuOpen = false}>FAQ</a>
+        <a href="#join-waitlist" class="bg-[#3B51E1] text-white text-sm font-medium px-5 py-2 rounded-full hover:bg-[#4EA9EF] transition-colors text-center" on:click={() => mobileMenuOpen = false}>
           Join Waitlist
         </a>
       </nav>
