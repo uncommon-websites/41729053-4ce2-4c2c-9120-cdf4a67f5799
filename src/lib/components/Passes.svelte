@@ -1,5 +1,5 @@
 <section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-200" id="join-waitlist">
-  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-black">Join the movement</h2>
+  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-white">Join the movement</h2>
   
   <p class="text-xl text-gray-600 mb-16 max-w-2xl">
     We're launching at Arizona State University this fall. Be among the first to experience AI-powered authentic connection.
