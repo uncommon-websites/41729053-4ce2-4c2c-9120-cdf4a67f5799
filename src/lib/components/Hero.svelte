@@ -1,4 +1,21 @@
 <section class="pt-32 pb-20 px-6 max-w-[1400px] mx-auto">
+  <style>
+    @keyframes cycleTerms {
+      0%, 22% { content: "ride or die"; }
+      25%, 47% { content: "bff"; }
+      50%, 72% { content: "loml"; }
+      75%, 97% { content: "bae"; }
+      100% { content: "ride or die"; }
+    }
+    
+    .animated-term::before {
+      content: "ride or die";
+      animation: cycleTerms 8s infinite;
+      display: inline-block;
+      color: white;
+      font-weight: 500;
+    }
+  </style>
   <div class="mb-6">
     <span class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full uppercase tracking-wide">
       Launching Fall 2026 at ASU
@@ -6,7 +23,9 @@
   </div>
 
   <h1 class="text-[clamp(3rem,8vw,6.5rem)] leading-[0.95] tracking-tight font-medium max-w-5xl mb-12 text-white">
-    Find your people through AI-powered chemistry
+    Find your <span class="inline-block relative">
+      <span class="animated-term bg-black px-3 py-1 rounded-md"></span>
+    </span> people through AI-powered chemistry
   </h1>
 
   <div class="flex flex-col md:flex-row gap-8 md:gap-32 mb-16 text-sm font-medium text-gray-500">
