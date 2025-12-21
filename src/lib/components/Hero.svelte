@@ -14,6 +14,7 @@
       display: inline-block;
       color: white;
       font-weight: 500;
+      font-family: 'Courier New', Courier, monospace;
     }
   </style>
   <div class="mb-6">
