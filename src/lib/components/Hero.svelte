@@ -25,7 +25,7 @@
 
   <h1 class="text-[clamp(3rem,8vw,6.5rem)] leading-[0.95] tracking-tight font-medium max-w-5xl mb-12 text-white">
     Find your <span class="inline-block relative">
-      <span class="animated-term bg-black px-3 py-1 rounded-md"></span>
+      <span class="animated-term bg-[#101010] px-3 py-1 rounded-md"></span>
     </span> people through AI-powered chemistry
   </h1>
 
